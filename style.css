@@ -1,0 +1,31 @@
+body {
+    font-family: 'Inter', sans-serif;
+    font-size: 11pt;
+    background-color: #5988FF;
+    color: #FFFFFF;
+}
+
+h1 {
+    color: #D6FF6B;
+    font-size: 24pt;
+    border-bottom: 2px solid #FFFFFF;
+    padding-bottom: 5px;
+    text-align: center;
+}
+
+h2 {
+    color: #FD98FB;
+    font-size: 20pt;
+    text-decoration: underline;
+}
+
+/* Animasi tetap dipakai (ini bagus 👍) */
+@keyframes pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.05); }
+  100% { transform: scale(1); }
+}
+
+h2:hover {
+  animation: pulse 0.8s ease-in-out infinite;
+}
